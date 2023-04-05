@@ -1,0 +1,23 @@
+from enum import Enum
+
+
+class Tile(Enum):
+    EMPTY = 15
+    OUTER_LEFT_WALL = 14
+    INNER_LEFT_WALL = 21
+    TOP_LEFT_WALL = 4
+    OUTER_TOP_WALL = 8
+    INNER_TOP_WALL = 20
+    TOP_RIGHT_WALL = 0
+    OUTER_RIGHT_WALL = 10
+    INNER_RIGHT_WALL = 17
+    BOTTOM_RIGHT_WALL = 2
+    OUTER_BOTTOM_WALL = 9
+    INNER_BOTTOM_WALL = 16
+    BOTTOM_LEFT_WALL = 5
+    LEFT_TO_RIGHT = 6
+    TOP_TO_BOTTOM = 7
+    CENTER = 11
+    PLATFORM = 3
+
+    PATH = 13
